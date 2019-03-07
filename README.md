@@ -13,6 +13,7 @@ Debianインストール・設定メモ
 ### 2. インストール後設定
 
 ```
+$ LANG=C xdg-user-dirs-gtk-update
 $ su
 # gpasswd sudo -a kaito
 # echo 'blacklist pcspkr' >> /etc/modprobe.d/pcspkr-blacklist.conf
@@ -28,3 +29,13 @@ $ sudo apt upgrade
 $ sudo apt install vim
 $ sudo update-alternatives --config editor
 ```
+
+### 3. VS Codeインストール
+
+[ここ](https://code.visualstudio.com/docs/setup/linux)を参照して64bitのdebパッケージをダウンロードし以下のコマンドを実行する。
+
+```
+$ sudo apt install ./<file>.deb
+```
+
+VS Codeの設定は[ここ](https://github.com/cherryk9821/install_vscode)を参照。
