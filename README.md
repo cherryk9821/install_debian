@@ -46,7 +46,16 @@ Linux用バイナリをダウンロード後以下のコマンドを実行する
 
 ```
 $ sudo tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz
+$ sudo vi /etc/profile
 ```
+
+以下の内容を追記する。
+
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
+追記後に再起動する。
 
 ### 4. VS Codeインストール
 
