@@ -23,6 +23,14 @@ $ su
 
 再起動がかかる
 
+最初のコマンドでディレクトリ名を英語に変えたとき、"blueman-service"のダウンロードフォルダのエラーが起こったら以下のコマンドを実行する。
+
+```
+gsettings set org.blueman.transfer shared-path '/home/user_name/Downloads'
+```
+
+上のコマンドの"user_name"の部分は自分のユーザー名に置き換える。
+
 ```
 $ sudo apt update
 $ sudo apt upgrade
