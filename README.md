@@ -34,7 +34,7 @@ gsettings set org.blueman.transfer shared-path '/home/user_name/Downloads'
 ```
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt install vim
+$ sudo apt install vim git
 $ sudo update-alternatives --config editor
 ```
 
