@@ -38,7 +38,17 @@ $ sudo apt install vim git
 $ sudo update-alternatives --config editor
 ```
 
-### 3. VS Codeインストール
+### 3. Go言語インストール
+
+[ここ](https://golang.org/dl/)でバイナリをダウンロードする。
+
+Linux用バイナリをダウンロード後以下のコマンドを実行する。
+
+```
+$ sudo tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz
+```
+
+### 4. VS Codeインストール
 
 [ここ](https://code.visualstudio.com/docs/setup/linux)を参照して64bitのdebパッケージをダウンロードし以下のコマンドを実行する。
 
