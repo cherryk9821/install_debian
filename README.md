@@ -73,6 +73,4 @@ VS Codeの設定は[ここ](https://github.com/cherryk9821/install_vscode)を参
 
 ```
 $ ./UnityHubSetup.AppImage
-$ mkdir ~/bin
-$ mv UnityHubSetup.AppImage ~/bin/unityhub
 ```
