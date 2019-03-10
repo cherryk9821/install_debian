@@ -66,3 +66,13 @@ $ sudo apt install ./<file>.deb
 ```
 
 VS Codeの設定は[ここ](https://github.com/cherryk9821/install_vscode)を参照。
+
+### 5. Unityインストール
+
+[ここ](https://forum.unity.com/threads/unity-hub-release-candidate-0-20-1-is-now-available.546315/)で"UnityHubSetup.AppImage"をダウンロードする。
+
+```
+$ ./UnityHubSetup.AppImage
+$ mkdir ~/bin
+$ mv UnityHubSetup.AppImage ~/bin/unityhub
+```
